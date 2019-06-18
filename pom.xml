@@ -9,6 +9,8 @@
   <version>1.0</version>
   <name>namegeneratorru</name>
   <packaging>jar</packaging>
+  <url>https://github.com/TaleOfTheCave/namegeneratorru</url>
+  <description>Random name generator</description>
 
   <licenses>
     <license>
@@ -17,6 +19,22 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <developers>
+    <developer>
+      <name>Levan Buchukuri</name>
+      <email>printnoname@gmail.com</email>
+      <organization>taleofthecave</organization>
+      <organizationUrl>https://github.com/TaleOfTheCave</organizationUrl>
+    </developer>
+  </developers>
+
+
+  <scm>
+    <connection>scm:git:git://github.com/TaleOfTheCave/namegeneratorru.git</connection>
+    <developerConnection>scm:git:ssh://github.com/TaleOfTheCave/namegeneratorru.git</developerConnection>
+    <url>http://github.com/TaleOfTheCave/namegeneratorru</url>
+  </scm>
 
   <scm>
     <url>https://svn.apache.org/viewvc/maven</url>
