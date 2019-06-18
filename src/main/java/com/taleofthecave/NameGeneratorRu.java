@@ -1,67 +1,50 @@
 package com.taleofthecave;
 
-//import org.json.simple.JSONObject;
-import java.io.BufferedReader;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.json.JSONTokener;
+
 import java.io.FileReader;
-import java.nio.file.Path;
+import java.util.HashSet;
 import java.util.List;
-import java.io.File;
 import java.io.IOException;
 import java.lang.String;
-import java.util.ArrayList;
+import java.util.Set;
 import java.util.Iterator;
 
-public class NameGeneratorRu
-{
+
+public class NameGeneratorRu {
+
+    private String previousName;
+    private Set<String> nounsSet;
+
     public static void main(String[] args) {
 
+        NameGeneratorRu a = new NameGeneratorRu();
+
+    }
 
 
+    public NameGeneratorRu(){
+        this.nounsSet = getRightNames();
+    }
+    public String getRandomName() {
 
-        List<String> list = new ArrayList<String>();
-        System.out.println(System.getProperty("user.dir"));
-        File file = new File("src/main/Resources/word_rus.txt");
-        System.out.println(file.exists());
-        if(file.exists()) {
+        return null;
+    }
 
-            BufferedReader reader;
-            try {
-                reader = new BufferedReader(new FileReader(
-                        file.getAbsolutePath()));
-                String line = reader.readLine();
-                while (line != null) {
-                    list.add(line);
-                    line = reader.readLine();
-                }
-                reader.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+    private Set<String> getRightNames() {
+        try {
+            JSONTokener tokener = new JSONTokener(new FileReader("src/main/Resources/nouns.json"));
+            JSONArray arr = (JSONArray) new JSONObject(tokener).get("nouns");
 
-            Iterator it = list.iterator();
+            List <String> l = (List <String>) (List<?>) arr.toList();
 
-            while(it.hasNext()){
+            return new HashSet<String>(l);
 
-            }
-
-
+        } catch (IOException ex) {
+            return null;
         }
-
-
-
-
-    }
-
-    public String getRandomName(int tryN){
-        return null;
-    }
-
-    private String [] getLeftNames () {
-        return null;
-    }
-
-    private String [] getRightNames (){
-        return null;
     }
 }
 
