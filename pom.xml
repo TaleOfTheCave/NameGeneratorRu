@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>taleofthecave</groupId>
+  <groupId>com.github.taleofthecave</groupId>
   <artifactId>namegeneratorru</artifactId>
   <version>1.0</version>
   <name>namegeneratorru</name>
@@ -24,7 +24,7 @@
     <developer>
       <name>Levan Buchukuri</name>
       <email>printnoname@gmail.com</email>
-      <organization>taleofthecave</organization>
+      <organization>com.github.taleofthecave</organization>
       <organizationUrl>https://github.com/TaleOfTheCave</organizationUrl>
     </developer>
   </developers>
@@ -34,10 +34,6 @@
     <connection>scm:git:git://github.com/TaleOfTheCave/namegeneratorru.git</connection>
     <developerConnection>scm:git:ssh://github.com/TaleOfTheCave/namegeneratorru.git</developerConnection>
     <url>http://github.com/TaleOfTheCave/namegeneratorru</url>
-  </scm>
-
-  <scm>
-    <url>https://svn.apache.org/viewvc/maven</url>
   </scm>
 
   <properties>
@@ -117,7 +113,7 @@
           <artifactId>exec-maven-plugin</artifactId>
           <version>1.2.1</version>
           <configuration>
-            <mainClass>com.taleofthecave.NameGeneratorRu</mainClass>
+            <mainClass>com.github.taleofthecave.NameGeneratorRu</mainClass>
           </configuration>
         </plugin>
 

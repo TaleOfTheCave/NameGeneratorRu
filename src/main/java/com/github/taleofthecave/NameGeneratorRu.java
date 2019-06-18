@@ -1,4 +1,4 @@
-package com.taleofthecave;
+package com.github.taleofthecave;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -8,7 +8,6 @@ import java.io.FileReader;
 import java.util.List;
 import java.io.IOException;
 import java.lang.String;
-import java.util.Iterator;
 import java.util.Random;
 
 public class NameGeneratorRu {
@@ -18,6 +17,8 @@ public class NameGeneratorRu {
 
     public static void main(String[] args) {
         NameGeneratorRu a = new NameGeneratorRu();
+
+        System.out.println(a.getRandomName());
     }
 
 

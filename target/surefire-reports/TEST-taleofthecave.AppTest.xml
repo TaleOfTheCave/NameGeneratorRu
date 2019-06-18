@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="taleofthecave.AppTest" time="0.036" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="taleofthecave.AppTest" time="0.103" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin"/>
-    <property name="sun.java.command" value="D:\WEBMAS~1\surefire12242817334124899594\surefirebooter13898301165616020067.jar D:\webmaster-temp\surefire12242817334124899594 2019-06-18T15-01-36_969-jvmRun1 surefire9153393935450759006tmp surefire_04333212282907213225tmp"/>
+    <property name="sun.java.command" value="D:\WEBMAS~1\surefire12986304961744441665\surefirebooter7397386516351592837.jar D:\webmaster-temp\surefire12986304961744441665 2019-06-18T17-03-20_636-jvmRun1 surefire4254415513435806720tmp surefire_017102255572144885863tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\java\namegeneratorru\target\test-classes;D:\java\namegeneratorru\target\classes;C:\Users\WebMaster\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\WebMaster\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\WebMaster\.m2\repository\org\json\json\20180130\json-20180130.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="D:\WEBMAS~1\surefire12242817334124899594\surefirebooter13898301165616020067.jar"/>
+    <property name="surefire.real.class.path" value="D:\WEBMAS~1\surefire12986304961744441665\surefirebooter7397386516351592837.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.1+12"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="taleofthecave.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="taleofthecave.AppTest" time="0.006"/>
 </testsuite>

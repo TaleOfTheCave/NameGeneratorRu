@@ -1,4 +1,4 @@
-package com.taleofthecave;
+package com.github.taleofthecave;
 
 public class Result {
     private String noun1;
