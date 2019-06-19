@@ -6,7 +6,7 @@
 
   <groupId>com.github.taleofthecave</groupId>
   <artifactId>namegeneratorru</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <name>namegeneratorru</name>
   <packaging>jar</packaging>
   <url>https://github.com/TaleOfTheCave/namegeneratorru</url>
