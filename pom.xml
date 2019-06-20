@@ -5,7 +5,7 @@
 
   <groupId>com.github.taleofthecave</groupId>
   <artifactId>namegeneratorru</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.3</version>
   <name>namegeneratorru</name>
   <packaging>jar</packaging>
   <url>https://github.com/TaleOfTheCave/namegeneratorru</url>
@@ -30,10 +30,9 @@
 
 
   <scm>
-    <connection>scm:git:git://github.com/TaleOfTheCave/namegeneratorru.git</connection>
+    <connection>scm:git:ssh://github.com/TaleOfTheCave/namegeneratorru.git</connection>
     <developerConnection>scm:git:ssh://github.com/TaleOfTheCave/namegeneratorru.git</developerConnection>
     <url>http://github.com/TaleOfTheCave/namegeneratorru</url>
-    <tag>1.0.1</tag>
   </scm>
 
   <properties>
